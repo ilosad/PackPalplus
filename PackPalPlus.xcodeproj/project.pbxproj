@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24077D802E0024A300EE4979 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24077D7F2E0024A300EE4979 /* OnboardingViewController.swift */; };
+		24077D842E008B9D00EE4979 /* GPTPackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24077D832E008B9D00EE4979 /* GPTPackListViewController.swift */; };
+		24077D862E00907400EE4979 /* GPTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24077D852E00907400EE4979 /* GPTService.swift */; };
+		24077D882E00C25800EE4979 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24077D872E00C25800EE4979 /* GoogleService-Info.plist */; };
+		24E9F8AD2DF7045E0024C8A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E9F8AC2DF7045E0024C8A3 /* AppDelegate.swift */; };
+		24E9F8AF2DF7045E0024C8A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E9F8AE2DF7045E0024C8A3 /* SceneDelegate.swift */; };
+		24E9F8B12DF7045E0024C8A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E9F8B02DF7045E0024C8A3 /* ViewController.swift */; };
+		24E9F8B42DF7045E0024C8A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E9F8B22DF7045E0024C8A3 /* Main.storyboard */; };
+		24E9F8B62DF704610024C8A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E9F8B52DF704610024C8A3 /* Assets.xcassets */; };
+		24E9F8B92DF704610024C8A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E9F8B72DF704610024C8A3 /* LaunchScreen.storyboard */; };
+		24E9F8C12DF707090024C8A3 /* packpalLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E9F8C02DF707090024C8A3 /* packpalLogo.png */; };
+		24E9F8C32DF7080B0024C8A3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E9F8C22DF7080B0024C8A3 /* LoginViewController.swift */; };
+		24E9F8C52DF70AAC0024C8A3 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E9F8C42DF70AAC0024C8A3 /* SignupViewController.swift */; };
+		24E9F8C72DF70FF50024C8A3 /* TravelInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E9F8C62DF70FF50024C8A3 /* TravelInfoViewController.swift */; };
+		8873DE9F4BCC1B5F77E25CB2 /* Pods_PackPalPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210AFD09DD063319B0C06A5B /* Pods_PackPalPlus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		210AFD09DD063319B0C06A5B /* Pods_PackPalPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PackPalPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24077D7F2E0024A300EE4979 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		24077D832E008B9D00EE4979 /* GPTPackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTPackListViewController.swift; sourceTree = "<group>"; };
+		24077D852E00907400EE4979 /* GPTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTService.swift; sourceTree = "<group>"; };
+		24077D872E00C25800EE4979 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		24E9F8A92DF7045E0024C8A3 /* PackPalPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PackPalPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E9F8AC2DF7045E0024C8A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24E9F8AE2DF7045E0024C8A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24E9F8B02DF7045E0024C8A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24E9F8B32DF7045E0024C8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24E9F8B52DF704610024C8A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24E9F8B82DF704610024C8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24E9F8BA2DF704610024C8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E9F8C02DF707090024C8A3 /* packpalLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = packpalLogo.png; sourceTree = "<group>"; };
+		24E9F8C22DF7080B0024C8A3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		24E9F8C42DF70AAC0024C8A3 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		24E9F8C62DF70FF50024C8A3 /* TravelInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelInfoViewController.swift; sourceTree = "<group>"; };
+		E4B4F02DBCBBFD95DC145D17 /* Pods-PackPalPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PackPalPlus.release.xcconfig"; path = "Target Support Files/Pods-PackPalPlus/Pods-PackPalPlus.release.xcconfig"; sourceTree = "<group>"; };
+		F844AE3FD3E3799B40D65F8D /* Pods-PackPalPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PackPalPlus.debug.xcconfig"; path = "Target Support Files/Pods-PackPalPlus/Pods-PackPalPlus.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24E9F8A62DF7045E0024C8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8873DE9F4BCC1B5F77E25CB2 /* Pods_PackPalPlus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24E9F8A02DF7045E0024C8A3 = {
+			isa = PBXGroup;
+			children = (
+				24E9F8AB2DF7045E0024C8A3 /* PackPalPlus */,
+				24E9F8AA2DF7045E0024C8A3 /* Products */,
+				55E6784229F4F8B40595D2DC /* Pods */,
+				D1D69FDCDF43AA58E358CF84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24E9F8AA2DF7045E0024C8A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24E9F8A92DF7045E0024C8A3 /* PackPalPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24E9F8AB2DF7045E0024C8A3 /* PackPalPlus */ = {
+			isa = PBXGroup;
+			children = (
+				24077D872E00C25800EE4979 /* GoogleService-Info.plist */,
+				24E9F8AC2DF7045E0024C8A3 /* AppDelegate.swift */,
+				24E9F8C02DF707090024C8A3 /* packpalLogo.png */,
+				24E9F8B02DF7045E0024C8A3 /* ViewController.swift */,
+				24E9F8B22DF7045E0024C8A3 /* Main.storyboard */,
+				24E9F8B52DF704610024C8A3 /* Assets.xcassets */,
+				24E9F8B72DF704610024C8A3 /* LaunchScreen.storyboard */,
+				24E9F8BA2DF704610024C8A3 /* Info.plist */,
+				24077D852E00907400EE4979 /* GPTService.swift */,
+				24E9F8C22DF7080B0024C8A3 /* LoginViewController.swift */,
+				24E9F8AE2DF7045E0024C8A3 /* SceneDelegate.swift */,
+				24E9F8C42DF70AAC0024C8A3 /* SignupViewController.swift */,
+				24E9F8C62DF70FF50024C8A3 /* TravelInfoViewController.swift */,
+				24077D7F2E0024A300EE4979 /* OnboardingViewController.swift */,
+				24077D832E008B9D00EE4979 /* GPTPackListViewController.swift */,
+			);
+			path = PackPalPlus;
+			sourceTree = "<group>";
+		};
+		55E6784229F4F8B40595D2DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F844AE3FD3E3799B40D65F8D /* Pods-PackPalPlus.debug.xcconfig */,
+				E4B4F02DBCBBFD95DC145D17 /* Pods-PackPalPlus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1D69FDCDF43AA58E358CF84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				210AFD09DD063319B0C06A5B /* Pods_PackPalPlus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24E9F8A82DF7045E0024C8A3 /* PackPalPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E9F8BD2DF704610024C8A3 /* Build configuration list for PBXNativeTarget "PackPalPlus" */;
+			buildPhases = (
+				3D1903DA4DC1AD63C614FD99 /* [CP] Check Pods Manifest.lock */,
+				24E9F8A52DF7045E0024C8A3 /* Sources */,
+				24E9F8A62DF7045E0024C8A3 /* Frameworks */,
+				24E9F8A72DF7045E0024C8A3 /* Resources */,
+				D222B58E9AC9EA2F06F146EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PackPalPlus;
+			productName = PackPalPlus;
+			productReference = 24E9F8A92DF7045E0024C8A3 /* PackPalPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24E9F8A12DF7045E0024C8A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					24E9F8A82DF7045E0024C8A3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 24E9F8A42DF7045E0024C8A3 /* Build configuration list for PBXProject "PackPalPlus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24E9F8A02DF7045E0024C8A3;
+			packageReferences = (
+				24077D892E00C2CF00EE4979 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 24E9F8AA2DF7045E0024C8A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24E9F8A82DF7045E0024C8A3 /* PackPalPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24E9F8A72DF7045E0024C8A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E9F8B92DF704610024C8A3 /* LaunchScreen.storyboard in Resources */,
+				24E9F8B62DF704610024C8A3 /* Assets.xcassets in Resources */,
+				24077D882E00C25800EE4979 /* GoogleService-Info.plist in Resources */,
+				24E9F8B42DF7045E0024C8A3 /* Main.storyboard in Resources */,
+				24E9F8C12DF707090024C8A3 /* packpalLogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D1903DA4DC1AD63C614FD99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PackPalPlus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D222B58E9AC9EA2F06F146EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PackPalPlus/Pods-PackPalPlus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PackPalPlus/Pods-PackPalPlus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PackPalPlus/Pods-PackPalPlus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24E9F8A52DF7045E0024C8A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E9F8C72DF70FF50024C8A3 /* TravelInfoViewController.swift in Sources */,
+				24E9F8C32DF7080B0024C8A3 /* LoginViewController.swift in Sources */,
+				24077D862E00907400EE4979 /* GPTService.swift in Sources */,
+				24E9F8B12DF7045E0024C8A3 /* ViewController.swift in Sources */,
+				24E9F8C52DF70AAC0024C8A3 /* SignupViewController.swift in Sources */,
+				24077D842E008B9D00EE4979 /* GPTPackListViewController.swift in Sources */,
+				24E9F8AD2DF7045E0024C8A3 /* AppDelegate.swift in Sources */,
+				24E9F8AF2DF7045E0024C8A3 /* SceneDelegate.swift in Sources */,
+				24077D802E0024A300EE4979 /* OnboardingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24E9F8B22DF7045E0024C8A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E9F8B32DF7045E0024C8A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24E9F8B72DF704610024C8A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E9F8B82DF704610024C8A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24E9F8BB2DF704610024C8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24E9F8BC2DF704610024C8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24E9F8BE2DF704610024C8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F844AE3FD3E3799B40D65F8D /* Pods-PackPalPlus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y4XRSD48R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PackPalPlus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.hjsong.PackPalPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24E9F8BF2DF704610024C8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B4F02DBCBBFD95DC145D17 /* Pods-PackPalPlus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Y4XRSD48R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PackPalPlus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.hjsong.PackPalPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24E9F8A42DF7045E0024C8A3 /* Build configuration list for PBXProject "PackPalPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E9F8BB2DF704610024C8A3 /* Debug */,
+				24E9F8BC2DF704610024C8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E9F8BD2DF704610024C8A3 /* Build configuration list for PBXNativeTarget "PackPalPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E9F8BE2DF704610024C8A3 /* Debug */,
+				24E9F8BF2DF704610024C8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		24077D892E00C2CF00EE4979 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 24E9F8A12DF7045E0024C8A3 /* Project object */;
+}

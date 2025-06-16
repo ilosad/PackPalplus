@@ -1,0 +1,8 @@
+# Xcode 관련 무시 파일
+*.xcworkspace
+*.xcuserstate
+DerivedData/
+build/
+
+# GPT API 보안
+APIKeys.swift

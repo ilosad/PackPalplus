@@ -1,0 +1,1 @@
+Finder에서 파일 이름을 Main.storyboard로 바꾸는 걸 추천해!
