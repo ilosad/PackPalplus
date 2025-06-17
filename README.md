@@ -45,13 +45,27 @@ PackPalPlus는 사용자가 여행지와 날짜를 입력하면 AI(GPT)가 자�
 <img width="772" alt="image" src="https://github.com/user-attachments/assets/aa8d96bb-4a8f-47dd-a748-70de9e209668" />
 
 
+
+
+
+
 🧱 기술 스택
+
+
 - Xcode (Storyboard 기반 UI)
 - Swift / UIKit
 - OpenAI GPT API
 - CocoaPods로 Firebase 및 외부 라이브러리 관리
 - Firebase 연동 준비 완료 (FirebaseCore 설치 및 초기화 완료)
 - Auto Layout, UITableView, UISegmentedControl, ScrollView 사용
+
+
+<img width="1243" alt="image" src="https://github.com/user-attachments/assets/3b254712-1b5e-4198-8184-1397a72fd52b" />
+
+
+
+
+
   
 📂 구현 구조
 
@@ -71,6 +85,7 @@ PackPalPlus는 사용자가 여행지와 날짜를 입력하면 AI(GPT)가 자�
 - 메인 UI 한 화면 내에서 리스트 확인, 체크, 필터, 추가, 삭제 전부 가능
 - 스크롤뷰 적용으로 작은 화면에서도 하단 버튼 누르기 편리
 - 자동 줄바꿈 설정된 셀로 긴 항목도 가독성 확보
+
 
 🌐 향후 확장 계획
 - Firebase Authentication 기반 로그인/회원가입 완성
