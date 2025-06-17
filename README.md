@@ -1,9 +1,32 @@
+
+
+
+
+
+
+
+
+
+
+
 📦 PackPalPlus - AI 기반 여행 짐 리스트 도우미
 
+
+
+
 ✨ 개요
-PackPalPlus는 사용자가 여행지와 날짜를 입력하면 **AI(GPT)**가 자동으로 맞춤형 짐 리스트를 생성해주는 스마트 여행 준비 앱입니다. 간편한 입력, 자동 리스트 생성, 체크리스트, 필터링, 사용자 커스텀 추가 기능까지 포함된, 실제로 사용 가능한 실용적인 iOS 앱입니다.
+PackPalPlus는 사용자가 여행지와 날짜를 입력하면 AI(GPT)가 자동으로 맞춤형 짐 리스트를 생성해주는 스마트 여행 준비 앱입니다. 간편한 입력, 자동 리스트 생성, 체크리스트, 필터링, 사용자 커스텀 추가 기능까지 포함된, 실제로 사용 가능한 실용적인 iOS 앱입니다.
+
+
+
+<img width="903" alt="image" src="https://github.com/user-attachments/assets/de7d5869-0def-43a0-bf0e-d076b42821a2" />
+
+
+
+
 
 🛠 주요 기능
+
 - GPT 짐 리스트 생성	OpenAI GPT API를 활용하여 여행지와 날짜에 맞는 맞춤형 짐 리스트 자동 생성
 - 체크리스트	생성된 짐 항목을 체크/해제 가능
 - 항목 삭제	필요 없는 짐 항목은 스와이프로 삭제 가능
@@ -11,6 +34,16 @@ PackPalPlus는 사용자가 여행지와 날짜를 입력하면 **AI(GPT)**가 �
 - 사용자 추가 항목	사용자가 직접 짐을 입력 후 버튼 클릭으로 추가 가능
 - 리스트 다시 생성	언제든지 버튼으로 리스트 재생성 가능
 - UIScrollView 적용	전체 화면 스크롤 지원으로 작은 화면에서도 모든 UI 접근 가능
+
+
+<img width="615" alt="image" src="https://github.com/user-attachments/assets/d2c7dfda-2ab8-461d-b6d1-bfead712b95f" />
+
+
+<img width="819" alt="image" src="https://github.com/user-attachments/assets/191c7c21-92c1-406d-af22-4aa85c6cf43e" />
+
+
+<img width="772" alt="image" src="https://github.com/user-attachments/assets/aa8d96bb-4a8f-47dd-a748-70de9e209668" />
+
 
 🧱 기술 스택
 - Xcode (Storyboard 기반 UI)
@@ -21,6 +54,11 @@ PackPalPlus는 사용자가 여행지와 날짜를 입력하면 **AI(GPT)**가 �
 - Auto Layout, UITableView, UISegmentedControl, ScrollView 사용
   
 📂 구현 구조
+
+<img width="337" alt="image" src="https://github.com/user-attachments/assets/4133318c-a1a4-48a5-8d1c-7ee5739a5152" />
+
+
+
 주요 ViewController
 - TravelInfoViewController	여행지와 날짜 입력 화면 (→ GPTPackListViewController로 이동)
 - GPTPackListViewController	GPT로 리스트 생성, 체크/삭제/추가/필터 UI 제공
